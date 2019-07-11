@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SWYPE="https://github.com/TheRandMan/microg_for_rattlesnakeos/raw/master/swype/libjni_latinime.so"
+SWYPE="https://github.com/TheRandMan/swype_for_rattlesnakeos/raw/master/libjni_latinime.so"
 mkdir -p $BUILD_DIR/swype
 echo "Downloading swype $SWYPE"
 wget -O $BUILD_DIR/mods/libjni_latinime.so $BOOT_ANIMATION
